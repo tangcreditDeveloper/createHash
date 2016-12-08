@@ -1,5 +1,6 @@
 'use strict'
-var intSize = 4
+var intSize = 4;
+var Buffer = require('buffer').Buffer;
 var zeroBuffer = new Buffer(intSize)
 zeroBuffer.fill(0)
 
