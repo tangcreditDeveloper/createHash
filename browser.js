@@ -3,6 +3,7 @@ var inherits = require('inherits')
 var md5 = require('./md5')
 var rmd160 = require('ripemd160')
 var sha = require('sha.js')
+var Buffer = require('buffer').Buffer;
 
 var Base = require('cipher-base')
 
